@@ -1,0 +1,9 @@
+{
+  "name": "test-orchestrator-agent",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "pnpm -r --workspace-concurrency=1 test"
+  },
+  "packageManager": "pnpm@11.1.2"
+}
