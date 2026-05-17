@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/*
+ * Tailwind v4 removed the `darkMode: 'class'` config option. Without this
+ * declaration every `dark:` utility silently no-ops. See PRD issue 0001.
+ */
+@custom-variant dark (&:is(.dark *));
